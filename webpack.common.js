@@ -220,6 +220,9 @@ module.exports = {
     }),
 
     new Dotenv(),
+    // BAW
+    new Dotenv({path: '.env.secret'}),
+    //
 
     // new ServiceWorkerWebpackPlugin({
     //   entry: path.join(__dirname, 'src/lib/serviceWorker/index.service.ts'),
